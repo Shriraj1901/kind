@@ -141,9 +141,11 @@ sudo pacman -Syu kind
 kind provides built-in help for all commands and subcommands.  
 You can explore available flags and usage details by running:
 
+{{< codeFromInline lang="bash" >}}
 kind help
 kind <command> --help
 kind <command> <subcommand> --help
+{{< /codeFromInline >}}
 
 This applies to commands such as `kind load image-archive`
 
